@@ -12,7 +12,7 @@ Built on the **Page Object Model (POM)** pattern and powered by Pytest, it ensur
 
 ## 🚀 Key Value Propositions
 
--   **Zero-Flakiness approach**: Tired of fragile tests? Promethee-Selenium implements smart waiting mechanisms and robust element interactions to ensure your tests only fail when they should.
+-   **Zero-Flakiness approach**: Tired of fragile tests? Promethee-Selenium implements smart waiting mechanisms and robust element interactions using the [selenium-ui-test-tool](https://kingcrud12.github.io/selenium_ui_test_tool) library to ensure your tests only fail when they should.
 -   **Professional POM Structure**: It enforces a clean separation of concerns. Page locators and actions are decoupled from test logic, making maintenance effortless.
 -   **Rapid Automation CLI**: Don't waste time setting up boilerplate. Our interactive CLI bootstraps a complete, production-ready POM architecture in seconds.
 -   **Scaffolding**: Run `promethee-selenium init` to generate a best-practice project structure instantly.
@@ -66,7 +66,7 @@ Basée sur le pattern **Page Object Model (POM)** et propulsée par Pytest, elle
 
 ## Valeur Ajoutée
 
--   **Adieu aux tests "fragiles"** : Marre des tests qui échouent sans raison ? Promethee-Selenium implémente des mécanismes d'attente intelligents et des interactions robustes avec le DOM.
+-   **Adieu aux tests "fragiles"** : Marre des tests qui échouent sans raison ? Promethee-Selenium implémente des mécanismes d'attente intelligents et des interactions robustes avec le DOM en utilisant la bibliothèque [selenium-ui-test-tool](https://kingcrud12.github.io/selenium_ui_test_tool).
 
 -   **Architecture POM Professionnelle** : Elle impose une séparation claire des responsabilités. Les sélecteurs et actions sont découplés de la logique de test, simplifiant la maintenance.
 
