@@ -3,7 +3,8 @@ from setuptools import setup, find_packages
 setup(
     name="promethee-selenium",
     version="1.0.10",
-    packages=find_packages(),
+    packages=find_packages(where="lib"),
+    package_dir={"": "lib"},
     include_package_data=True,
     install_requires=[
         "selenium-ui-test-tool",

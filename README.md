@@ -6,57 +6,47 @@
 
 # 🇬🇧 English Description
 
-**Promethee-Selenium** is a robust, Page Object Model (POM) based library for automated UI testing using Selenium and Pytest.
+**Promethee-Selenium** is a professional-grade automation library designed to eliminate **Selenium flakiness** while bringing a structured, industrial approach to UI testing. 
 
-It is designed to streamline your end-to-end testing workflow by providing a structured architecture, ensuring your tests are maintainable, scalable, and easy to read.
+Built on the **Page Object Model (POM)** pattern and powered by Pytest, it ensures your automation remains stable, maintainable, and scalable from day one.
 
-## Features
+## 🚀 Key Value Propositions
 
--   **Page Object Model (POM)**: Enforces a clean separation between page interactions (locators, actions) and test logic (assertions, workflows).
--   **Interactive CLI**: A user-friendly command-line interface to guide you through project initialization and documentation.
--   **Scaffolding**: Quickly generate a production-ready project structure with `promethee-selenium init`.
--   **Built-in Utilities**: A rich set of helper functions for common Selenium actions (clicking, typing, waiting) powered by `selenium-ui-test-tool`.
--   **Environment Management**: Native support for managing test environments and credentials securely.
--   **Bilingual Support**: The CLI and documentation are available in both English and French.
+-   **Zero-Flakiness approach**: Tired of fragile tests? Promethee-Selenium implements smart waiting mechanisms and robust element interactions to ensure your tests only fail when they should.
+-   **Professional POM Structure**: It enforces a clean separation of concerns. Page locators and actions are decoupled from test logic, making maintenance effortless.
+-   **Rapid Automation CLI**: Don't waste time setting up boilerplate. Our interactive CLI bootstraps a complete, production-ready POM architecture in seconds.
+-   **Scaffolding**: Run `promethee-selenium init` to generate a best-practice project structure instantly.
+-   **Bilingual Support**: Both CLI and documentation are natively available in English and French.
 
 ## Installation
-
-Install the package via pip:
 
 ```bash
 pip install promethee-selenium
 ```
 
-## Getting Started
+## Getting Started in 60 Seconds
 
 1.  **Launch the CLI**:
-    After installation, run the following command to access the interactive menu:
     ```bash
     promethee-selenium
     ```
-    You will be prompted to select your language (English/French) and then choose an action.
+    Choose your language and select **Init** to bootstrap your project.
 
-2.  **Initialize a Project**:
-    Select the **Init** option from the menu or run:
-    ```bash
-    promethee-selenium init
-    ```
-    This creates a standard directory layout:
-    -   `scenarios/`: For your Page Object classes.
-    -   `tests/`: For your Pytest test scripts.
-    -   `data/`: For configuration files and test data.
-    -   `utils/`: For project-specific utilities.
-    -   `conftest.py`: Pytest configuration with pre-configured fixtures.
+2.  **Project Structure**:
+    The CLI generates a professional layout:
+    -   `scenarios/`: Your Page Object classes.
+    -   `tests/`: Your clean test scripts.
+    -   `data/`: Configuration and CSV test data.
+    -   `conftest.py`: Industrial-grade Pytest fixtures.
 
 3.  **Run Your Tests**:
-    Execute your tests using pytest:
     ```bash
-    pytest tests/
+    pytest lib/tests/
     ```
 
 ## Documentation
 
-To view the full documentation, select **Docs** from the CLI menu or run:
+Access the full guide via:
 ```bash
 promethee-selenium docs
 ```
@@ -65,57 +55,47 @@ promethee-selenium docs
 
 # 🇫🇷 Description Française
 
-**Promethee-Selenium** est une librairie robuste basée sur le modèle Page Object Model (POM) pour l'automatisation de tests UI avec Selenium et Pytest.
+**Promethee-Selenium** est une bibliothèque d'automatisation professionnelle conçue pour éradiquer l'instabilité (**flakiness**) de Selenium tout en apportant une structure industrielle à vos tests UI.
 
-Elle est conçue pour optimiser votre flux de travail de tests de bout en bout en fournissant une architecture structurée, garantissant que vos tests restent maintenables, évolutifs et lisibles.
+Basée sur le modèle **Page Object Model (POM)** et propulsée par Pytest, elle garantit que votre automatisation reste stable, maintenable et évolutive dès le premier jour.
 
-## Fonctionnalités
+## 🚀 Valeur Ajoutée
 
--   **Page Object Model (POM)** : Impose une séparation claire entre les interactions de page (sélecteurs, actions) et la logique de test (assertions, scénarios).
--   **CLI Interactif** : Une interface en ligne de commande conviviale pour vous guider dans l'initialisation du projet et la consultation de la documentation.
--   **Génération de Projet** : Générez rapidement une structure de projet prête pour la production avec `promethee-selenium init`.
--   **Utilitaires Intégrés** : Un ensemble riche de fonctions d'aide pour les actions Selenium courantes (cliquer, écire, attendre), propulsé par `selenium-ui-test-tool`.
--   **Gestion d'Environnement** : Support natif pour gérer les environnements de test et les identifiants de manière sécurisée.
--   **Support Bilingue** : Le CLI et la documentation sont disponibles en anglais et en français.
+-   **Adieu aux tests "fragiles"** : Marre des tests qui échouent sans raison ? Promethee-Selenium implémente des mécanismes d'attente intelligents et des interactions robustes avec le DOM.
+-   **Architecture POM Professionnelle** : Elle impose une séparation claire des responsabilités. Les sélecteurs et actions sont découplés de la logique de test, simplifiant la maintenance.
+-   **Automatisation Rapide via CLI** : Ne perdez plus de temps sur la configuration. Notre CLI interactif génère une architecture POM complète et prête pour la production en quelques secondes.
+-   **Scaffolding** : Lancez `promethee-selenium init` pour créer instantanément une structure de projet respectant les meilleures pratiques.
+-   **Support Bilingue** : Le CLI et la documentation sont disponibles nativement en anglais et en français.
 
 ## Installation
-
-Installez le paquet via pip :
 
 ```bash
 pip install promethee-selenium
 ```
 
-## Démarrage Rapide
+## Démarrage en 60 Secondes
 
 1.  **Lancez le CLI** :
-    Après l'installation, exécutez la commande suivante pour accéder au menu interactif :
     ```bash
     promethee-selenium
     ```
-    Il vous sera demandé de choisir votre langue (Anglais/Français) puis de choisir une action.
+    Choisissez votre langue et sélectionnez **Init** pour initialiser votre projet.
 
-2.  **Initialisez un Projet** :
-    Sélectionnez l'option **Init** dans le menu ou exécutez :
-    ```bash
-    promethee-selenium init
-    ```
-    Cela crée une structure de répertoires standard :
-    -   `scenarios/` : Pour vos classes Page Object.
-    -   `tests/` : Pour vos scripts de test Pytest.
-    -   `data/` : Pour les fichiers de configuration et les données de test.
-    -   `utils/` : Pour les utilitaires spécifiques au projet.
-    -   `conftest.py` : Configuration Pytest avec des fixtures pré-configurées.
+2.  **Structure du Projet** :
+    Le CLI génère une organisation professionnelle :
+    -   `scenarios/` : Vos classes Page Object.
+    -   `tests/` : Vos scripts de test épurés.
+    -   `data/` : Configuration et données CSV.
+    -   `conftest.py` : Fixtures Pytest de niveau industriel.
 
 3.  **Lancez Vos Tests** :
-    Exécutez vos tests avec pytest :
     ```bash
-    pytest tests/
+    pytest lib/tests/
     ```
 
 ## Documentation
 
-Pour consulter la documentation complète, sélectionnez **Docs** dans le menu du CLI ou exécutez :
+Consultez le guide complet via :
 ```bash
 promethee-selenium docs
 ```

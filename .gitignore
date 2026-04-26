@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+
+# IDEs
+.idea/
+.vscode/
+.DS_Store
+
+# User requested
+.github/
+.*
+
+# Exception for .gitignore itself (if needed, though git usually handles it)
+!.gitignore
