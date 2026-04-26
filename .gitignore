@@ -35,3 +35,4 @@ ENV/
 
 # Exception for .gitignore itself (if needed, though git usually handles it)
 !.gitignore
+!.gitattributes
