@@ -1,2 +1,6 @@
-# Marquer le dossier docs comme de la documentation pour Linguist (GitHub)
-docs/* linguist-documentation
+# Marquer les dossiers docs et les assets web comme de la documentation pour Linguist (GitHub)
+docs/** linguist-documentation
+**/docs/** linguist-documentation
+*.html linguist-documentation
+*.css linguist-documentation
+*.js linguist-documentation
