@@ -1,3 +1,2 @@
 # Marquer le dossier docs comme de la documentation pour Linguist (GitHub)
 docs/* linguist-documentation
-lib/promethee/docs/* linguist-documentation
