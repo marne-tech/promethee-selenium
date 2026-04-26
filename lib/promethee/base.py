@@ -8,10 +8,10 @@ class Base:
         # On évite la récursion infinie : ConsentModal ne doit pas s'initialiser lui-même
         if self.__class__.__name__ != 'ConsentModal':
             try:
-                # from .utils.consent import ConsentModal
-                # self.consent_modal = ConsentModal(driver)
-                pass
+                from .utils.consent import ConsentModal
+                self.consent_modal = ConsentModal(driver)
             except ImportError:
+                # ConsentModal is optional or not yet implemented
                 pass
         
         if url:
