@@ -51,20 +51,29 @@ Access the full guide via:
 promethee-selenium docs
 ```
 
+## Contributors
+
+-   **Yann Dipita** ([kingcrud12](https://github.com/kingcrud12))
+-   **Loïc Roxan Milandou** ([roxanmlr](https://github.com/roxanmlr))
+
 ---
 
 # 🇫🇷 Description Française
 
 **Promethee-Selenium** est une bibliothèque d'automatisation professionnelle conçue pour éradiquer l'instabilité (**flakiness**) de Selenium tout en apportant une structure industrielle à vos tests UI.
 
-Basée sur le modèle **Page Object Model (POM)** et propulsée par Pytest, elle garantit que votre automatisation reste stable, maintenable et évolutive dès le premier jour.
+Basée sur le pattern **Page Object Model (POM)** et propulsée par Pytest, elle garantit que votre automatisation reste stable, maintenable et évolutive dès le premier jour.
 
-## 🚀 Valeur Ajoutée
+## Valeur Ajoutée
 
 -   **Adieu aux tests "fragiles"** : Marre des tests qui échouent sans raison ? Promethee-Selenium implémente des mécanismes d'attente intelligents et des interactions robustes avec le DOM.
+
 -   **Architecture POM Professionnelle** : Elle impose une séparation claire des responsabilités. Les sélecteurs et actions sont découplés de la logique de test, simplifiant la maintenance.
+
 -   **Automatisation Rapide via CLI** : Ne perdez plus de temps sur la configuration. Notre CLI interactif génère une architecture POM complète et prête pour la production en quelques secondes.
+
 -   **Scaffolding** : Lancez `promethee-selenium init` pour créer instantanément une structure de projet respectant les meilleures pratiques.
+
 -   **Support Bilingue** : Le CLI et la documentation sont disponibles nativement en anglais et en français.
 
 ## Installation
@@ -99,3 +108,8 @@ Consultez le guide complet via :
 ```bash
 promethee-selenium docs
 ```
+
+## Contributeurs
+
+-   **Yann Dipita** ([kingcrud12](https://github.com/kingcrud12))
+-   **Loïc Roxan Milandou** ([roxanmlr](https://github.com/roxanmlr))
