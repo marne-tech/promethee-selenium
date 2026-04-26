@@ -10,8 +10,6 @@
 
 **Promethee-Selenium** is a professional-grade automation library designed to eliminate **Selenium flakiness** while bringing a structured, industrial approach to UI testing. 
 
-🌐 **Documentation & Website**: [promethee-selenium.com](https://promethee-selenium.com/)
-
 Built on the **Page Object Model (POM)** pattern and powered by Pytest, it ensures your automation remains stable, maintainable, and scalable from day one.
 
 ## Key Value Propositions
@@ -65,8 +63,6 @@ promethee-selenium docs
 # 🇫🇷 Description Française
 
 **Promethee-Selenium** est une bibliothèque d'automatisation professionnelle conçue pour éradiquer l'instabilité (**flakiness**) de Selenium tout en apportant une structure industrielle à vos tests UI.
-
-🌐 **Site Web & Documentation** : [promethee-selenium.com](https://promethee-selenium.com/)
 
 Basée sur le pattern **Page Object Model (POM)** et propulsée par Pytest, elle garantit que votre automatisation reste stable, maintenable et évolutive dès le premier jour.
 
